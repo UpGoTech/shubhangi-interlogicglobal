@@ -1,0 +1,153 @@
+#services-section{
+  
+    .service-main-section{
+        @apply bg-[#07335F] py-16 ;
+
+        .content_1{
+            @apply py-16 px-8 md:px-20 lg:grid lg:grid-cols-3 lg:gap-x-14 xl:mx-7 xl:px-52 2xl:px-40;
+       
+            .data_1{
+                /* ------ page-1 ----- */
+                .container_1{
+                    @apply flex justify-center;
+                    .block-box-1{
+                        @apply bg-lime-600 w-16 rounded-bl-3xl lg:w-32 xl:w-14;
+                    }
+                   
+                }
+                .information-para-1{
+                    @apply text-white;
+
+                    .text_1{
+                        @apply text-center leading-relaxed text-xs py-3;
+                    }
+                    .service-1{
+                        @apply font-extrabold text-4xl text-center py-4;
+                    }
+                    p{
+                        @apply text-sm pb-7;
+                    }
+                }
+                /* ------ page-2 ----- */
+                .container_2{
+                    @apply flex justify-center;
+                    .block-box-2{
+                        @apply bg-lime-600 w-32 rounded-bl-3xl md:w-16 lg:w-32 xl:w-14;
+                    }
+                }
+                .information-para-2{
+                    @apply text-white;
+
+                    .text_2{
+                        @apply text-center leading-relaxed text-sm py-3;
+                    }
+                    .service-2{
+                        @apply font-extrabold text-4xl text-center py-4;
+                    }
+                    p{
+                        @apply text-sm pb-7;
+                    }
+                }
+                /* ------ page-3 ----- */
+                .container_3{
+                    @apply flex justify-center;
+                    .block-box-3{
+                        @apply bg-lime-600 w-16 rounded-bl-3xl lg:w-32 xl:w-14;
+                    }
+                }
+                .information-para-3{
+                    @apply text-white;
+
+                    .text_3{
+                        @apply text-center leading-relaxed text-base py-3;
+                    }
+                    .service-3{
+                        @apply font-extrabold text-4xl text-center py-4;
+                    }
+                    p{
+                        @apply text-base pb-7;
+                    }
+                }
+            
+        
+                /* .content_2{
+                    @apply pt-16 px-8; */
+            
+                    /* ------ page-4 ----- */
+                .container_4{
+                    @apply flex justify-center;
+                    .block-box-4{
+                        @apply bg-lime-600 w-32 rounded-bl-3xl md:w-16 lg:w-32 xl:w-14;
+                    }
+                }
+                .information-para-4{
+                    @apply text-white;
+
+                    .text_4{
+                        @apply text-center leading-relaxed text-base py-3;
+                    }
+                    .service-4{
+                        @apply font-extrabold text-4xl text-center py-4;
+                    }
+                    p{
+                        @apply text-sm pb-7;
+                    }
+                }
+                /* ------ page-5 ----- */
+                .container_5{
+                    @apply flex justify-center;
+                    .block-box-5{
+                        @apply bg-lime-600 w-32 rounded-bl-3xl md:w-16 lg:w-32 xl:w-14;
+                    }
+                }
+                .information-para-5{
+                    @apply text-white;
+
+                    .text_5{
+                        @apply text-center leading-relaxed text-base py-3;
+                    }
+                    .service-5{
+                        @apply font-bold text-3xl text-center py-4;
+                    }
+                    p{
+                        @apply text-base pb-7;
+                    }
+                }
+                /* ------ page-6 ----- */
+                .container_6{
+                    @apply flex justify-center;
+                    .block-box-6{
+                        @apply bg-lime-600 w-16 rounded-bl-3xl lg:w-32 xl:w-14;
+                    }
+                }
+                .information-para-6{
+                    @apply text-white;
+
+                    .text_6{
+                        @apply text-center leading-relaxed text-base py-3;
+                    }
+                    .service-6{
+                        @apply font-extrabold text-4xl text-center py-4;
+                    }
+                    p{
+                        @apply text-sm pb-3;
+                    }
+                }
+            }
+        } 
+    }
+    .photos-1{
+        @apply w-[550px];
+    }
+   .container_7:hover{
+        @apply cursor-pointer duration-300;
+        transform: scale(1.1);
+   
+   }
+}
+
+
+
+
+
+

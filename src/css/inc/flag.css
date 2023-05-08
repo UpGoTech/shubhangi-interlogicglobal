@@ -1,0 +1,76 @@
+#flag-section{
+    @apply  top-[96%] left-56 bottom-0 right-0 fixed;
+
+    .flag{
+        @apply  absolute;
+        
+        .class-1{
+            @apply flex bg-[#4C4C5C]  text-center px-4 py-2 cursor-pointer rounded-md relative ;
+
+            .flag-1{
+                @apply  my-1 mr-1;
+            }
+            span{
+                @apply text-white;
+            }
+        }
+        .class-2{
+            @apply bg-[#4C4C5C] py-2 px-4 absolute -top-9 cursor-pointer rounded-t-md hidden;
+
+            .flag-2{
+                @apply absolute my-1;
+            }
+            span{
+                @apply text-white ml-[23px];
+            }
+        
+        }
+        .class-1:hover ~ .class-2{
+            @apply block ;
+        }
+    }
+
+    .wrapper{
+        @apply bg-lime-600 2xl:left-[94%] bottom-5 rounded-full w-16 h-16 text-center absolute cursor-pointer;
+
+        .class-3{
+
+           .fab{
+                @apply text-4xl mt-3 text-white ml-1 ;
+            }
+        }
+    }   
+}
+#message-section{
+    @apply bg-white w-80 h-80 rounded-md top-[379%] left-[81%] right-0 bottom-0 absolute  hidden;
+
+    .message-page{
+        @apply p-4 mx-2 my-2;
+          
+        .pages-0{
+            @apply flex justify-between;
+            
+            .icons{
+                @apply  bg-gray-300 w-7 h-7 pt-[6px] rounded-full text-center mt-2;
+            }
+            .il-icon{
+                @apply w-10 rounded-full mt-1 ;
+            }
+        }
+        .pages-1{
+            @apply mt-3 text-base;
+        }
+        .pages-2{
+            @apply mt-5 text-sm;
+        }
+        .btn{
+            @apply bg-lime-600 w-72 h-10 rounded-lg text-sm text-white font-semibold mt-14 -ml-2;
+        }
+        .pages-3{
+            @apply text-center text-sm mt-2;
+        }
+    }
+}
+#check:checked ~ #message-section{
+    @apply block;
+}

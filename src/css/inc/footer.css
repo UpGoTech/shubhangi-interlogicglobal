@@ -1,0 +1,60 @@
+#interlogic-footer-section{
+    background-image: url('/images/backoverlay_interlogicglobal.png');
+    @apply bg-[#20335C] bg-cover bg-center bg-no-repeat 2xl:bg-top;
+
+    .container-boxes-1{
+        @apply py-14;
+        
+        .container-boxes-2{
+            @apply pt-8 mx-14 md:mx-40 md:gap-5 lg:flex lg:mx-10 2xl:mx-56;
+
+            .img_0{
+
+               @apply 2xl:ml-5 2xl:-mt-6;      
+              .images{
+                    @apply w-52 md:hidden lg:block;
+                }
+                .images-1{
+                    @apply w-28 ml-10 my-5 md:hidden lg:block;
+                }
+            }   
+            .model-passthrough{
+               @apply lg:flex lg:justify-between 2xl:ml-5;
+               
+                .item-list-2{
+                    @apply md:grid md:grid-cols-2;
+    
+                    .item-list-0{
+                        @apply md:ml-[20px];
+                    }
+                }
+                .item-list-3{
+                    @apply md:flex md:justify-around lg:mr-0;
+
+                    .solution_0{
+                        @apply md:mr-20;
+                    }
+                }
+
+                .item-list,li{
+                    @apply pb-6 text-white text-lg font-normal capitalize 2xl:ml-4;
+        
+                    strong{
+                        @apply font-extrabold text-white text-xl uppercase;
+                    }
+                }
+                .fa{
+                    @apply text-lg text-center w-8 py-1 text-white rounded;
+                }
+            }    
+        }
+    }
+    .logica-1{
+        @apply py-8 mx-6 md:mx-10 lg:mx-20 2xl:mx-56;
+
+        .logica{
+            @apply text-gray-400 text-sm pt-3 mb-4;
+        }
+    }
+    
+}

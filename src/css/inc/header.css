@@ -1,0 +1,46 @@
+body{
+    font-family:'Work Sans', sans-serif;
+    
+}
+#main-header-section{
+     .section-1{
+        @apply flex justify-between mx-6 pt-2 md:grid-cols-[470px_100px_65px] md:place-content-center md:mx-14 ;
+        
+        .location{
+            @apply hidden md:block md:text-sm md:text-[#003366] md:font-semibold md:py-1 md:flex ;
+
+            .fa-sharp{
+                @apply md:text-xl;
+            }
+        }
+        .icon-1{
+            @apply  text-lime-500 text-lg md:text-center;
+
+            .contact{
+                @apply  text-purple-800;
+            }
+        }
+        .icon-2{
+            @apply text-lime-500 text-xl md:text-center;
+        }
+    }
+    .line{
+        @apply w-[85%] mx-auto;
+    }
+    
+    .section-2{
+        @apply flex justify-between mx-7 md:mx-14 lg:grid lg:grid-cols-3 lg:grid-rows-1 ;
+
+        .fa-bars{
+            @apply text-2xl pt-2 text-lime-500 lg:hidden;
+        }
+        .btn{
+            @apply hidden lg:block bg-lime-500 font-semibold cursor-pointer uppercase text-2xl text-white w-60 py-3 px-6 rounded;
+        }
+        .main-nav-bar{
+            @apply hidden lg:block  ;
+        }
+        
+    }
+    
+}

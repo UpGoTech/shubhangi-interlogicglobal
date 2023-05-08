@@ -1,0 +1,27 @@
+#smart-solution-section{
+   background-image: url(/images/version-fondo2.png);
+   
+   /* opacity: 0.8; */
+   /* linear-gradient(200deg,#0d183e 0%,rgba(128,195,66,0.13) 100%);
+    background-color: rgba(0,0,0,0); */
+   @apply  w-[100%] bg-center bg-cover bg-no-repeat bg-[#1F2438] opacity-80 ;
+    
+    .text-modular{
+        @apply py-24 lg:mx-20 xl:mx-80;
+    }
+    .text-modular-1{
+        @apply py-20 px-2 md:pl-5 ;
+    }
+    .text-modular-2{
+        @apply py-3 my-5 mx-2 pr-3;
+    }
+    .contented{
+        @apply text-white font-bold text-5xl leading-none pb-2 px-3 pt-5 lg:text-clip xl:text-7xl;
+    }
+    .paras{
+        @apply font-normal text-base px-3 text-gray-200 md:text-xl md:pr-20 ;
+    }
+    strong{
+        @apply text-white;
+    }
+}

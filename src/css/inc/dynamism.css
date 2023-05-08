@@ -1,0 +1,19 @@
+#dynamism-section{
+
+    .model-box{
+        @apply bg-gray-100 text-center pt-12; 
+
+        .para-1,span{
+            @apply text-[#0a3150] font-extrabold text-4xl py-4 md:text-5xl lg:text-7xl;
+        }
+        .dynamism{
+            @apply text-lime-600;
+        }
+        p{
+            @apply text-xl mx-12 pb-10 md:text-2xl md:mx-20 lg:pb-10;
+        }
+        hr{
+            @apply  hidden lg:block lg:border-[3px] lg:border-lime-500 lg:w-32 lg:mx-auto xl:border-[4px] 2xl:w-48;
+        }
+    }
+}

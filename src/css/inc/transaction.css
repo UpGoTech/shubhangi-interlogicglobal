@@ -1,0 +1,25 @@
+#transaction-section{
+
+    @apply lg:grid lg:grid-cols-2;
+    .implement{
+        @apply  bg-lime-500 px-10 text-center font-extrabold py-10 md:py-28;
+        
+        h3{
+            @apply text-white text-2xl md:text-4xl xl:text-5xl;
+        }
+        span{
+            @apply text-[#06173f] text-6xl leading-relaxed xl:text-7xl xl:leading-normal;
+        }
+    }
+    .implement_1{
+        @apply bg-[#0a3150] py-10 px-10 text-center font-extrabold  md:py-28;
+
+        h3{
+            @apply text-white text-2xl md:text-4xl xl:text-5xl;
+        }
+        span{
+            @apply text-5xl leading-normal text-lime-500 md:text-6xl md:leading-relaxed;
+        }
+       
+    }
+}
